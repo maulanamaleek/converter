@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserat', sans-serif;
+    color: rgb(35, 35, 35);
+    background:#FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+    background: linear-gradient(to right, #511845, #900c3f);
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 96rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.wrap {
+    background-color: #fff;
+    padding: 4rem 0;
+    margin: 4rem 0;
+    border-radius: 4px;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, .2);
+    transform: skewX(-10deg);
+    transition: all .3s ease;
+}
+
+.wrap:hover {
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, .2);
+    transform: translateY(-.5rem) skewX(-10deg) scale(1.01);
+}
+
+
+#input {
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .6rem 1rem;
+    margin-bottom: 5rem;
+    border-radius: 4px;
+    transition: all .3s ease;
+    text-align: center;
+}
+
+form {
+    display: block;
+}
+
+form input {
+    color: #fff;
+    font-family: inherit;
+    font-size: 1.6rem;
+}
+
+form input[type="number"] {
+    border: 2px solid transparent;
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    height: 4rem;
+    border-radius: 4px;
+    background-color: rgb(30, 30, 30);
+    padding: 0 2rem;
+    transition: all .4s ease;
+}
+
+form input[type="number"]:focus {
+    border: 2px solid #FF416C;
+    width: 100%;
+    outline: none;
+}
+
+form select {
+    display: block;
+    width: 40%;
+    height: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    color: #900c3f;
+    font-family: inherit;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    margin-left: 30%;
+}
+
+select:hover{
+    background-color: #900c3f;
+    color: #fff;
+}
+
+#output{
+    display: block;
+    padding: 3rem 0;
+    width: 70%;
+    margin-left: 15%;
+    background-color:#900c3f ;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
